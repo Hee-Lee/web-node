@@ -1,15 +1,15 @@
 /*
 function a(){
-    console.log('A');
+  console.log('A');
 }
 */
 var a = function(){
-    console.log('A');
+  console.log('A');
 }
 
 
 function slowfunc(callback){
-    callback();
+  callback();
 }
 
 slowfunc(a);
